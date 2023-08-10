@@ -1,0 +1,67 @@
+#modal-window{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+}
+.modal-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    /* height: 40px; */
+}
+.modal-div h1{
+    padding: 0;
+    margin: 0;
+}
+.modal-content{
+    width: 400px;    
+    height: 250px;
+    /* выставляем высоту и ширину, затем убираем ??*/
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    position: relative;
+    font-size: 20px;
+}
+
+.close-btn{
+    position:absolute;
+    top: 25px;
+    right: 20px;
+    background-color:rgba(255, 255, 255, 0.786);
+    border-radius: 50%;
+}
+.modal-content h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.modal-content input{
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(80, 76, 76, 0.733);
+}
+.modal-content button:last-child{
+    width: 100%;
+    padding: 7px 0;
+    background-color:rgba(180, 172, 172, 0.6);
+    border-radius: 10px;
+}
+.open{
+    display: flex !important;
+}
+/* classname < class < id */

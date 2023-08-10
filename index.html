@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invest</title>
+    <script src="https://kit.fontawesome.com/c428a32a31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/all.css">
+    <!-- slider -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <script defer src="./js/index.js"></script>
+</head>
+<body>
+   <header>
+    <div class="header">
+            <i class="fa-solid fa-bars"></i>
+            <div class="logo"><img src="./img/logo.png" alt=""></div>
+            
+            <div class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Team</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="button-signup">
+                <button>Signup</button>
+            </div>
+        </div>
+   </header>
+    <div class="banner">
+        <h1>
+            Make Unique Planning <br>
+            For Your Business
+        </h1>
+        <p>Forget about design limits! Build and customize<br>your site visually. It’s fun, fast and super-easy!</p>
+        <div class="banner__buttons">
+            <a  onclick="openModal()" class="banner-btn theme_button">Buy Theme</a>
+            <a href="" class="banner-btn projects_button"> 
+                <!-- убираем href чтобы не перезагружало, либо меняем на button -->
+                <img src="./img/play.svg" alt="play"> All Projects</a>
+        </div>
+    </div>
+    <!-- modal-window -->
+   <div id="modal-window">
+        <div class="modal-content">
+            <div class="modal-div">
+                <button onclick="closeModal()" class="close-btn">x</button>
+                <h1>we will call you</h1>
+            </div>
+                <input type="text" placeholder="name">
+                <input type="text" placeholder="number">
+                <button>submit</button>
+        </div>
+   </div>
+    <section class="services">
+        <div class="our-services">
+            <h6>OUR AWESOME SERVICES</h6>
+            <h2>Our Services</h2>
+        </div>
+        <div class="services-row">
+            <div class="services-box">
+                <div class="icon-box">
+                    <img src="./img/strategy.png" alt="">
+                    <h4>Strategy & Planning
+                    </h4>
+                    <p>Peacefully between its four familiar walls. A collection of textile samples lay spread.
+                    </p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="icon-box">
+                    <img src="./img/consulting.png" alt="">
+                    <h4>Online Consulting</h4>
+                    <p>Peacefully between its four familiar walls. A collection of textile samples lay spread.</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="icon-box">
+                    <img src="./img/internet marketing.png" alt="">
+                    <h4>Internet Marketing</h4>
+                    <p>Peacefully between its four familiar walls. A collection of textile samples lay spread .</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="sliders">
+        <div class="sliders_left_content">
+            <div class="sliders_purple sliders_block">
+                <h6>WHY YOU CAN CHOOSE US?</h6>
+                <h2>Building Flexible, Design-Driven Websites With Ease.</h2>
+                <p>Peacefully between its four familiar walls a collection of textile samples lay spread out on the table - Samsa was a travelling salesman and above it there hung a piture that he had recently cut out of an illustrated magazine</p>
+            </div>
+        
+            <div class="sliders_skills">
+                <ul>
+                    <li>Web Design
+                        <span>
+                            <div class="progressbar">
+                                <div class="progress progress-web"></div>
+                                <div class="percent-count">50%</div>
+                            </div>
+                        </span>
+                    </li>
+                    <li>Development
+                        <span>
+                            <div class="progressbar">
+                                <div class="progress progress-development"></div>
+                                <div class="percent-count">80%</div>
+                            </div>
+                        </span>
+                    </li>
+                    <li>Branding
+                        <span>
+                            <div class="progressbar">
+                                <div class="progress progress-branding"></div>
+                                <div class="percent-count">70%</div>
+                            </div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sliders_picture sliders_block"><img src="./img/sliders-pic.png" alt=""></div>
+
+    </section>
+        
+    <section class="weare">
+        <div class="content-weare">
+            <h6>ABOUT OUR HISTORY</h6>
+            <h2>We Are Startuply And We Create
+                Efficient Web Design And Branding</h2>
+            <p>Lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table Samsa was a traveling salesman it there hung a picture that he had re only cut out.</p>
+        </div>
+    </section>
+    
+        <div class="our-team">
+            <h6>CREATIVE & BRILLIANT PEOPLE</h6>
+            <h2>Our Team</h2>
+        </div>
+
+        <div class="team-test">
+            <div class="team-members">
+                <div class="item-team">
+                    <img src="./img/luke.jpg" alt="">
+                    <div class="team-item-content">
+                        <h4>Luke Cage</h4>
+                        <h6>Founder & CEO</h6>
+                        <ul>
+                            <li><a href=""><i></i></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item-team">
+                    <img src="./img/jessica.jpg" alt="">
+                    <div class="team-item-content">
+                        <h4>Jessica Jones</h4>
+                        <h6>Product Designer</h6>
+                        <ul>
+                            <li><a href=""><i></i></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item-team">
+                    <img src="./img/matt.jpg" alt="">
+                    <div class="team-item-content">
+                        <h4>Matt Murdo  ck</h4>
+                        <h6>Lead Developer</h6>
+                        <ul>
+                            <li><a href=""><i></i></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="item-team">
+                    <img src="./img/matt.jpg" alt="">
+                    <div class="team-item-content">
+                        <h4>Matt Murdo  ck</h4>
+                        <h6>Lead Developer</h6>
+                        <ul>
+                            <li><a href=""><i></i></a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+       
+    
+        <div class="numbers">
+            <div class="numbers-item">
+                <span class="item-counter" data-num="144">0</span>
+                <h4>Happy Client</h4>
+            </div>
+            <div class="numbers-item">
+                <span class="item-counter" data-num="199">0</span>
+                <h4>Project Completed</h4>
+            </div>
+            <div class="numbers-item">
+                <span class="item-counter" data-num="75">0</span>
+                <h4>Cups Of Tea</h4>
+            </div>
+            <div class="numbers-item">
+                <span class="item-counter" data-num="90">0</span>
+                <h4>New Customers</h4>
+            </div>
+        </div>
+   
+        <div class="features">
+            <h6>OUR AWESOME FEATURES</h6>
+            <h2>Our Features</h2>
+        </div>
+
+         
+       <div class="features-box">
+            <div class="features-item">
+                <h4 class="features-h">Modern Design</h4>
+                <p>It wasn't a dream. His room, a proper human room although a little too small.</p>
+            </div>
+            <div class="features-item">
+                <h4 class="features-h">Documentation</h4>
+                <p>It wasn't a dream. His room, a proper human room although a little too small.</p>
+            </div>
+            <div class="features-item">
+                <h4 class="features-h">Support</h4>
+                <p>It wasn't a dream. His room, a proper human room although a little too small.</p>
+            </div>
+        </div> 
+    
+       <div class="works">
+            <h6>OUR AWESOME PROJECTS</h6>
+            <h2>Our Captivating Works</h2>
+        </div>
+        <div class="menu-portfolio">
+            <ul class="list-portfolio">
+                <li>All</li>
+                <li>Branding</li>
+                <li>Print Design</li>
+                <li>Web Design</li>
+                <li>Ui Design</li>
+            </ul>
+        </div>
+     
+        <div class="grid">
+            <div class="grid-item">
+                <img src="./img/grid1.jpg" alt="">
+                <div class="grid-item-content">
+                    <a href=""><h4>Creative Design</h4></a>
+                    <h6>Work Description Here</h6>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="./img/grid2.jpg" alt="">
+                <div class="grid-item-content">
+                    <a href=""><h4>Creative Design</h4></a>
+                    <h6>Work Description Here</h6>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="./img/grid3.jpg" alt="">
+                <div class="grid-item-content">
+                    <a href=""><h4>Creative Design</h4></a>
+                    <h6>Work Description Here</h6>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="./img/grid4.jpg" alt="">
+                <div class="grid-item-content">
+                    <a href=""><h4>Creative Design</h4></a>
+                    <h6>Work Description Here</h6>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="./img/grid5.jpg" alt="">
+                <div class="grid-item-content">
+                    <a href=""><h4>Creative Design</h4></a>
+                    <h6>Work Description Here</h6>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="./img/grid6.jpg" alt="">
+                <div class="grid-item-content">
+                    <a href=""><h4>Creative Design</h4></a>
+                    <h6>Work Description Here</h6>
+                </div>
+            </div>
+           
+        </div>
+         <div class="overlay">
+            <div class="overlay_bg">
+                <div class="left-side-overlay">
+                    <div class="overlay-logo"><img src="./img/overlay1.png" alt=""></div>
+                    <div class="overlay-logo"><img src="./img/overlay2.png" alt=""></div>
+                    <div class="overlay-logo"><img src="./img/overlay3.png" alt=""></div>
+                </div>
+                <div class="right-side-overlay">
+                    <p class="right-side-overlay-icon"><i class="fa-sharp fa-solid fa-quote-right"></i></p>
+                   
+                    <div class="testimonial">
+                        <p>Lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table Samsa was a traveling salesman it there hung a picture that he had re only cut out of an</p>
+                    </div>
+                    <div class="testimonial-info">
+                        <h4>Stephen Mearsley</h4>
+                        <h6>Business consulting</h6>
+                    </div>
+                </div>
+            </div>
+            
+        </div>  
+        <div class="pricing">
+            <h6>CHOOSE OUR OFFERS</h6>
+            <h2>Our Pricing</h2>
+        </div>
+        <div class="pricing-box">
+            <div class="pricing-item">
+                <div class="pricing-head">
+                    <h4>Regular</h4>
+                    <h2>
+                        <sup>$</sup>
+                        99
+                        <span>/month</span>
+                    </h2>
+                </div>
+                <div class="pricing-body">
+                    <ul>
+                        <li>15 Email Account</li>
+                        <li>100 GB Space</li>
+                        <li>1 Domain Name</li>
+                        <li>500GB Bandwidth</li>
+                    </ul>
+                </div>
+                <div class="pricing-footer">
+                    <a href="">Get Plan</a>
+                </div>
+            </div>
+            <div class="pricing-item">
+                <div class="pricing-item_bg">
+                    <div class="pricing-head">
+                        <h4>Standard</h4>
+                        <h2>
+                            <sup>$</sup>
+                            99
+                            <span>/month</span>
+                        </h2>
+                    </div>
+                    <div class="pricing-body">
+                        <ul>
+                            <li>15 Email Account</li>
+                            <li>100 GB Space</li>
+                            <li>1 Domain Name</li>
+                            <li>500GB Bandwidth</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="">Get Plan</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="pricing-item">
+                <div class="pricing-head">
+                    <h4>Premium</h4>
+                    <h2>
+                        <sup>$</sup>
+                        99
+                        <span>/month</span>
+                    </h2>
+                </div>
+                <div class="pricing-body">
+                    <ul>
+                        <li>15 Email Account</li>
+                        <li>100 GB Space</li>
+                        <li>1 Domain Name</li>
+                        <li>500GB Bandwidth</li>
+                    </ul>
+                </div>
+                <div class="pricing-footer">
+                    <a href="">Get Plan</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="posts">
+            <h6>LATEST NEWS</h6>
+            <h2>Recent Posts</h2>
+        </div>
+        <div class="posts-row">
+            <div class="posts-box">
+                <div class="posts_img">
+                    <img src="./img/posts1.jpg" alt="">
+                </div>
+                <div class="posts-content">
+                    <a href=""><h4>What Do You Do As a Web Developer?</h4></a>
+                    <ul>
+                        <li>april,25.2019 </li>
+                        <li>by:jhon doe</li>
+                    </ul>
+                    <p>Showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards .</p>
+                    <a href="" class="reading-button">Continue Reading</a>
+                </div>
+            </div>
+            <div class="posts-box">
+                <div class="posts_img">
+                    <img src="./img/posts2.jpg" alt="">
+                </div>
+                <div class="posts-content">
+                    <a href=""><h4>What Do You Do As a Web Developer?</h4></a>
+                    <ul>
+                        <li>april,25.2019 </li>
+                        <li>by:jhon doe</li>
+                    </ul>
+                    <p>Showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards .</p>
+                    <a href="" class="reading-button">Continue Reading</a>
+                </div>
+            </div>
+            <div class="posts-box">
+                <div class="posts_img">
+                    <img src="./img/posts3.jpg" alt="">
+                </div>
+                <div class="posts-content">
+                    <a href=""><h4>What Do You Do As a Web Developer?</h4></a>
+                    <ul>
+                        <li>april,25.2019 </li>
+                        <li>by:jhon doe</li>
+                    </ul>
+                    <p>Showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards .</p>
+                    <a href="" class="reading-button">Continue Reading</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="form">
+        <div class="form-box">
+            <div class="form-content">
+                <h4>You Have Questions?</h4>
+            
+                <div class="form-row">
+                    <input class="name" placeholder="Name" type="text">
+                    <input class="mail" placeholder="E-mail" type="text">
+                    <input class="phone" placeholder="Phone" type="text">
+                </div>
+                <div class="form-message">
+                    <input class="message" placeholder="Message" type="text">
+                </div>
+            </div>
+        </div>
+       
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22843.77707520236!2d-73.96979411899079!3d40.69011305758977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2skz!4v1686312276239!5m2!1sru!2skz" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-test">
+            <div class="footer-box">
+                <div class="footer-box-content">
+                    <h4>About Us</h4>
+                    <p>Samsa was a travelling salesman and above it there hung a picture that he had recently .</p>
+                </div>
+                <div class="footer-box-content">
+                    <h4>Quick Links</h4>
+                    <a href="">Service</a>
+                    <a href="">Faq</a>
+                    <a href="">About Us</a>
+                    <a href="">Privacy Policy</a>
+                </div>
+                <div class="footer-box-content">
+                    <h4>Support Links</h4>
+                    <a href="">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                    <a href="">Join Us</a>
+                </div>
+                <div class="footer-box-content">
+                    <h4>Quick Menu</h4>
+                    <a href="">Blogs</a>
+                    <a href="">Contacts</a>
+                    <a href="">Support</a>
+                    <a href="">Career</a>
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <p>Copyright ©2019 
+                    <a href="" class="copyright_a"> UXIGN</a>
+                    . All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer> 
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- slick js -->
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/slider-team.js"></script>
+</body>
+</html>

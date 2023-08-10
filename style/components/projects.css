@@ -1,0 +1,49 @@
+.works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0;
+    font-weight: 600;
+}
+.works h6{
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0 0 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works h2{
+    letter-spacing: -1px;
+    margin-bottom: -50px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    font-family: 'Poppins';
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.works h6::before{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: #6b54f6;
+    position: absolute;
+    bottom: 7px;
+    left: -40px;
+}
+.works h6::after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: #6b54f6;
+    position: absolute;
+    bottom: 7px;
+    right: -40px;
+}
